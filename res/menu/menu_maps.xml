@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+
+    <item
+        android:id="@+id/menu_gotolocation"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Show Destination"/>
+
+    <item
+        android:id="@+id/menu_showcurrentlocation"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Show Current Location"/>
+    <item
+        android:id="@+id/menu_Route"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Route"/>
+    <item
+        android:id="@+id/menu_show_navigation"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Navigate"/>
+
+</menu>
